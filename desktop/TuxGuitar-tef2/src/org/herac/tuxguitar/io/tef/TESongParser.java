@@ -1,16 +1,16 @@
-package org.herac.tuxguitar.io.tef;
+package org.herac.tuxguitar.io.tef2;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 
-import org.herac.tuxguitar.io.tef.base.TEChord;
-import org.herac.tuxguitar.io.tef.base.TEComponent;
-import org.herac.tuxguitar.io.tef.base.TEComponentChord;
-import org.herac.tuxguitar.io.tef.base.TEComponentNote;
-import org.herac.tuxguitar.io.tef.base.TESong;
-import org.herac.tuxguitar.io.tef.base.TETimeSignature;
-import org.herac.tuxguitar.io.tef.base.TETrack;
+import org.herac.tuxguitar.io.tef2.base.TEChord;
+import org.herac.tuxguitar.io.tef2.base.TEComponent;
+import org.herac.tuxguitar.io.tef2.base.TEComponentChord;
+import org.herac.tuxguitar.io.tef2.base.TEComponentNote;
+import org.herac.tuxguitar.io.tef2.base.TESong;
+import org.herac.tuxguitar.io.tef2.base.TETimeSignature;
+import org.herac.tuxguitar.io.tef2.base.TETrack;
 import org.herac.tuxguitar.song.factory.TGFactory;
 import org.herac.tuxguitar.song.managers.TGSongManager;
 import org.herac.tuxguitar.song.models.TGBeat;

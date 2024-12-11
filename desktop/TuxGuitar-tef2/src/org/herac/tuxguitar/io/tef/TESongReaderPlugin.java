@@ -1,4 +1,4 @@
-package org.herac.tuxguitar.io.tef;
+package org.herac.tuxguitar.io.tef2;
 
 import org.herac.tuxguitar.io.base.TGFileFormatDetector;
 import org.herac.tuxguitar.io.base.TGSongReader;
@@ -8,7 +8,7 @@ import org.herac.tuxguitar.util.plugin.TGPluginException;
 
 public class TESongReaderPlugin extends TGSongReaderPlugin {
 	
-	public static final String MODULE_ID = "tuxguitar-tef";
+	public static final String MODULE_ID = "tuxguitar-tef2";
 	
 	public TESongReaderPlugin() {
 		super(true);

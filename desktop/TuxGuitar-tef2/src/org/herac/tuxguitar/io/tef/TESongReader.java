@@ -1,10 +1,10 @@
-package org.herac.tuxguitar.io.tef;
+package org.herac.tuxguitar.io.tef2;
 
 import org.herac.tuxguitar.io.base.TGFileFormat;
 import org.herac.tuxguitar.io.base.TGFileFormatException;
 import org.herac.tuxguitar.io.base.TGSongReader;
 import org.herac.tuxguitar.io.base.TGSongReaderHandle;
-import org.herac.tuxguitar.io.tef.base.TESong;
+import org.herac.tuxguitar.io.tef2.base.TESong;
 import org.herac.tuxguitar.song.models.TGSong;
 
 public class TESongReader implements TGSongReader {
@@ -24,7 +24,7 @@ public class TESongReader implements TGSongReader {
 			
 			handle.setSong(tgSong);
 		} catch (Exception e) {
-			throw new TGFileFormatException();
+			throw new TGFileFormatException(e);
 		}
 	}
 }

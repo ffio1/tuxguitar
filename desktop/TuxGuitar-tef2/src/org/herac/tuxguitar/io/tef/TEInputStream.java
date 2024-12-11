@@ -1,21 +1,21 @@
-package org.herac.tuxguitar.io.tef;
+package org.herac.tuxguitar.io.tef2;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-import org.herac.tuxguitar.io.tef.base.TEChord;
-import org.herac.tuxguitar.io.tef.base.TEComponentChord;
-import org.herac.tuxguitar.io.tef.base.TEComponentNote;
-import org.herac.tuxguitar.io.tef.base.TEInfo;
-import org.herac.tuxguitar.io.tef.base.TEPercussion;
-import org.herac.tuxguitar.io.tef.base.TERepeat;
-import org.herac.tuxguitar.io.tef.base.TERhythm;
-import org.herac.tuxguitar.io.tef.base.TESong;
-import org.herac.tuxguitar.io.tef.base.TETempo;
-import org.herac.tuxguitar.io.tef.base.TEText;
-import org.herac.tuxguitar.io.tef.base.TETimeSignature;
-import org.herac.tuxguitar.io.tef.base.TETimeSignatureChange;
-import org.herac.tuxguitar.io.tef.base.TETrack;
+import org.herac.tuxguitar.io.tef2.base.TEChord;
+import org.herac.tuxguitar.io.tef2.base.TEComponentChord;
+import org.herac.tuxguitar.io.tef2.base.TEComponentNote;
+import org.herac.tuxguitar.io.tef2.base.TEInfo;
+import org.herac.tuxguitar.io.tef2.base.TEPercussion;
+import org.herac.tuxguitar.io.tef2.base.TERepeat;
+import org.herac.tuxguitar.io.tef2.base.TERhythm;
+import org.herac.tuxguitar.io.tef2.base.TESong;
+import org.herac.tuxguitar.io.tef2.base.TETempo;
+import org.herac.tuxguitar.io.tef2.base.TEText;
+import org.herac.tuxguitar.io.tef2.base.TETimeSignature;
+import org.herac.tuxguitar.io.tef2.base.TETimeSignatureChange;
+import org.herac.tuxguitar.io.tef2.base.TETrack;
 
 public class TEInputStream {
 	
